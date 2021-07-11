@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        card_view:cardCornerRadius="@dimen/corner_radius"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height">
+
+            <ImageView
+                android:id="@+id/bc_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/qwe"
+                android:tint="@color/bc_tint"
+                tools:ignore="UseAppTint" />
+
+            <TextView
+                android:layout_width="@dimen/circle_height_width"
+                android:layout_height="@dimen/circle_height_width"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/circle_margin"
+                android:layout_marginTop="@dimen/circle_margin"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="7.7"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Film name"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:textSize="26dp" />
+
+            <TextView
+                android:layout_width="@dimen/circle_height_width"
+                android:layout_height="@dimen/circle_height_width"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/circle_margin"
+                android:layout_marginEnd="@dimen/circle_margin"
+                android:background="@drawable/circle"
+                />
+
+            <com.sackcentury.shinebuttonlib.ShineButton
+                android:id="@+id/po_image2"
+                android:layout_width="@dimen/star_height_width"
+                android:layout_height="@dimen/star_height_width"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/star_margin"
+                android:layout_marginTop="@dimen/star_margin"
+                android:src="@android:color/darker_gray"
+                app:allow_random_color="false"
+                app:btn_color="@android:color/darker_gray"
+                app:btn_fill_color="@android:color/holo_orange_light"
+                app:siShape="@raw/star"
+                tools:ignore="MissingClass" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

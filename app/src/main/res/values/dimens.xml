@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_height">400dp</dimen>
+    <dimen name="card_margin">10dp</dimen>
+    <dimen name="corner_radius">15dp</dimen>
+    <dimen name="circle_margin">15dp</dimen>
+    <dimen name="circle_height_width">70dp</dimen>
+    <dimen name="star_height_width">50dp</dimen>
+    <dimen name="star_margin">25dp</dimen>
+</resources>
