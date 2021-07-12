@@ -7,4 +7,6 @@
     <dimen name="circle_height_width">70dp</dimen>
     <dimen name="star_height_width">50dp</dimen>
     <dimen name="star_margin">25dp</dimen>
+    <dimen name="filmName_textSize">26sp</dimen>
+    <dimen name="poster_height">320dp</dimen>
 </resources>

@@ -27,9 +27,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Connection Problem!"
-            android:visibility="gone"
-            tools:ignore="HardcodedText" />
+            android:text="@string/connection_problem"
+            android:visibility="gone"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_movie_list"
